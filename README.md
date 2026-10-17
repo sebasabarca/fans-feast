@@ -1,5 +1,19 @@
 # Fans Feast
 
+## My Contributions
+
+I worked on Fans Feast as part of a school team project, focusing on user-state UI responsiveness and the administrative side of the application.
+
+My main contributions included:
+
+- Developed the sidebar component with different states for admin, authenticated user, and guest users.
+- Implemented the three user-role states in the application data and connected them to the UI.
+- Built the complete admin side of the application, including admin-specific functionality and views.
+- Implemented event image uploads, allowing administrators to upload images for events.
+- Contributed to the visual design of the application.
+
+---
+
 ## Overview (example project outline)
 
 Elmo Hikes is a client-side JavaScript web application that helps users discover and explore hiking trails. The app displays a curated list of hike trails, each with details such as name, location, difficulty, and an image. Users can browse the list and mark their favorite trails for easy access later.
