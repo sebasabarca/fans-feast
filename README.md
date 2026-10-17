@@ -1,110 +1,48 @@
-# Fans Feast
-
+# Fans Feast ⚽
+ 
+A web app that helps FIFA World Cup 2026 fans in Vancouver find bars, restaurants and venues showing the matches, and lets businesses post and manage their watch-party events.
+ 
+**Live demo:** [https://fans-feast.web.app]
+ 
+---
+ 
 ## My Contributions
-
-I worked on Fans Feast as part of a school team project, focusing on user-state UI responsiveness and the administrative side of the application.
-
-My main contributions included:
-
-- Developed the sidebar component with different states for admin, authenticated user, and guest users.
-- Implemented the three user-role states in the application data and connected them to the UI.
-- Built the complete admin side of the application, including admin-specific functionality and views.
-- Implemented event image uploads, allowing administrators to upload images for events.
-- Contributed to the visual design of the application.
-
+ 
+Team project for COMP 1800 at BCIT (3 developers). I developed the role-based experience and the admin side of the app:
+ 
+- **Role-based UI:** designed the three user roles (admin, signed-in user, guest) in the Firestore data model and built the sidebar component that changes its navigation and actions for each role.
+- **Admin side:** built all admin views and functionality, including managing events, data analytics dashboard, etc.
+- **Event image uploads:** implemented image uploads so admins and businesses can attach photos to events, using Cloudinary.
+- **Visual design:** contributed to the app's layout and styling.
 ---
-
-## Overview (example project outline)
-
-Elmo Hikes is a client-side JavaScript web application that helps users discover and explore hiking trails. The app displays a curated list of hike trails, each with details such as name, location, difficulty, and an image. Users can browse the list and mark their favorite trails for easy access later.
-
-Developed for the COMP 1800 course, this project applies User-Centred Design practices and agile project management, and demonstrates integration with Firebase backend services for storing user favorites.
-
----
-
+ 
 ## Features
+ 
+- Browse World Cup watch-party events at Vancouver venues
+- Separate sign-up and profiles for fans and businesses
+- Businesses can create, edit and manage the events they host
+- Fans can save events and view them in "My Events"
+- Role-based navigation for admins, signed-in users and guests
+- Responsive layout for desktop and mobile
 
-- Browse a list of curated hiking trails with images and details
-- Mark and unmark trails as favorites
-- View a personalized list of favorite hikes
-- Responsive design for desktop and mobile
+## Tech Stack
+ 
+| Area | Technology |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript, Tailwind CSS |
+| Build tool | Vite |
+| Backend | Firebase Authentication, Firebase Hosting |
+| Database | Cloud Firestore |
+| Images | Cloudinary |
+ 
+## Running Locally
+ 
+1. Clone the repository and run `npm install`.
+2. Add your Firebase config [WHERE THE CONFIG GOES, e.g. a .env file].
+3. Run `npm run dev` and open the local address shown in the terminal (usually `http://localhost:5173`).
 
----
-
-## Technologies Used
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Backend**: Firebase for hosting
-- **Database**: Firestore
-
----
-
-## Usage
-
-To run the application locally:
-
-1.  **Clone** the repository.
-2.  **Install dependencies** by running `npm install` in the project root directory.
-3.  **Start the development server** by running the command: `npm run dev`.
-4.  Open your browser and visit the local address shown in your terminal (usually `http://localhost:5173` or similar).
-
-Once the application is running:
-
-1.  Browse the list of hiking trails displayed on the main page.
-2.  Click the heart icon (or similar) to mark a trail as a favorite.
-3.  View your favorite hikes in the favorites section.
-
----
-
-## Project Structure
-
-```
-elmo-hikes/
-├── src/
-│   ├── main.js
-├── styles/
-│   └── style.css
-├── public/
-├── images/
-├── index.html
-├── package.json
-├── README.md
-```
-
----
-
-## Contributors
-
-- **Sebastian Abarca** - BCIT CST Student who has a passion for coding and learning new concepts. Fun fact: he is obsessed with futbol club Barcelona.
-- **Rayne Choy** - I like pigeons and boxes
-- **Jacob Surry** - BCIT CST Student with a passion for the World Cup.
-
----
-
-## Acknowledgments
-
-- Trail data and images are for demonstration purposes only.
-- Code snippets were adapted from resources such as [Stack Overflow](https://stackoverflow.com/) and [MDN Web Docs](https://developer.mozilla.org/).
-- Icons sourced from [FontAwesome](https://fontawesome.com/) and images from [Unsplash](https://unsplash.com/).
-
----
-
-## Limitations and Future Work
-
-### Limitations
-
-- Limited trail details (e.g., no live trail conditions).
-- Accessibility features can be further improved.
-
-### Future Work
-
-- Implement map view and trailhead directions.
-- Add filtering and sorting options (e.g., by difficulty, distance).
-- Create a dark mode for better usability in low-light conditions.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Team
+ 
+- Sebastian Abarca
+- Jacob Surry
+- Rayne Choy
