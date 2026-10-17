@@ -2,7 +2,7 @@
  
 A web app that helps FIFA World Cup 2026 fans in Vancouver find bars, restaurants and venues showing the matches, and lets businesses post and manage their watch-party events.
  
-**Live demo:** [https://fans-feast.web.app]
+**Live demo:** [fans-feast.web.app][https://fans-feast.web.app]
  
 ---
  
@@ -11,10 +11,9 @@ A web app that helps FIFA World Cup 2026 fans in Vancouver find bars, restaurant
 Team project for COMP 1800 at BCIT (3 developers). I developed the role-based experience and the admin side of the app:
  
 - **Role-based UI:** designed the three user roles (admin, signed-in user, guest) in the Firestore data model and built the sidebar component that changes its navigation and actions for each role.
-- **Admin side:** built all admin views and functionality, including managing events, data analytics dashboard, etc.
+- **Admin side:** built all admin views and functionality, including managing events and data analytics dashboard.
 - **Event image uploads:** implemented image uploads so admins and businesses can attach photos to events, using Cloudinary.
 - **Visual design:** contributed to the app's layout and styling.
----
  
 ## Features
  
@@ -35,12 +34,6 @@ Team project for COMP 1800 at BCIT (3 developers). I developed the role-based ex
 | Database | Cloud Firestore |
 | Images | Cloudinary |
  
-## Running Locally
- 
-1. Clone the repository and run `npm install`.
-2. Add your Firebase config [WHERE THE CONFIG GOES, e.g. a .env file].
-3. Run `npm run dev` and open the local address shown in the terminal (usually `http://localhost:5173`).
-
 ## Team
  
 - Sebastian Abarca
